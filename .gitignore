@@ -1,2 +1,5 @@
+*.key
+*.key_back
 *.pem
 tags
+/images
