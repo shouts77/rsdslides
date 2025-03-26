@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Swiper CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <div class="container">
+   <!-- <h1>rsd infomation</h1> -->
+    
+    <div class="swiper-container">
+      <!-- Swiper -->
+      <div class="swiper mySwiper" id="mySwiper">
+        <div class="swiper-wrapper">
+          <!-- 여기에 images 폴더의 이미지들을 추가합니다 -->
+          <div class="swiper-slide"><img src="images/slide4.JPG" alt="이미지 1"></div>
+          <div class="swiper-slide"><img src="images/slide5.JPG" alt="이미지 2"></div>
+          <div class="swiper-slide"><img src="images/slide6.JPG" alt="이미지 3"></div>
+          <div class="swiper-slide"><img src="images/slide7.JPG" alt="이미지 4"></div>
+          <div class="swiper-slide"><img src="images/slide8.JPG" alt="이미지 5"></div>
+        </div>
+        
+        <!-- 네비게이션 버튼 -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+        <!-- 페이지네이션 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 전체화면 버튼 -->
+        <button class="fullscreen-button" id="fullscreenButton">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+          </svg>
+          <span id="fullscreenText">전체화면</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="scripts.js"></script>
+
+</body>
+</html>
